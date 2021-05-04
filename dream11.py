@@ -128,10 +128,14 @@ class Team:
 
     def __init__(self, player_list):
         
-        mwk = 1
-        mbat = 3
-        mar = 1
-        mbowl = 3
+        self.mwk = 1
+        self.mbat = 3
+        self.mar = 1
+        self.mbowl = 3
+        self.wk = 0
+        self.bat = 0
+        self.ar = 0
+        self.bowl = 0
         players = []
         
         self.generateTeam(player_list)
