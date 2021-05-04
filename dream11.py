@@ -136,7 +136,7 @@ class Team:
         self.bat = 0
         self.ar = 0
         self.bowl = 0
-        players = []
+        self.players = []
         
         self.generateTeam(player_list)
     
@@ -174,6 +174,7 @@ for i in range(5):
     team = Team(players)
     print("Team ", i, ":", sep='')
     team.showTeam()
+    print()
     
             
             
