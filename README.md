@@ -1,11 +1,8 @@
-# dream-11-random-team
+# Dream 11 Random Team Generator
 Generates Random Dream 11 Team
 
-# Rules
+## Rules
 - 1 - 4 Wicket-Keepers
 - 3 - 6 Batsmen
 - 1 - 4 All-Rounders
 - 3 - 6 Bowlers
-
-## Problem:
-Not generating more than 1 Team
