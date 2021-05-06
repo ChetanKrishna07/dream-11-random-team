@@ -172,7 +172,7 @@ players = [Player("Naitram", 10, 1), Player("J Peter", 9, 1), Player("G Prospere
 
 for i in range(5):
     team = Team(players)
-    print("Team ", i, ":", sep='')
+    print("Team ", i+1, ":", sep='')
     team.showTeam()
     print()
     
